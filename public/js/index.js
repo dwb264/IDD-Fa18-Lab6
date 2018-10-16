@@ -25,11 +25,11 @@ function changeText(input) {
 }
 
 socket.on('answer', function(msg) {
-  console.log('Incomming answer:', msg);
+  console.log('Incoming answer:', msg);
   changeText(msg);
 });
 socket.on('question', function(msg) {
-  console.log('Incomming Question:', msg);
+  console.log('Incoming Question:', msg);
   questionRecieved = true;
   document.getElementById("input").style.display = "block";
   changeText(msg);

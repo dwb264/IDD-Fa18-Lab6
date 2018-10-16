@@ -59,3 +59,5 @@ typings/
 
 # macOS specific
 .DS-Store
+
+login.js
